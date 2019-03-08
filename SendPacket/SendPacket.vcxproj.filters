@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="deviceHandler.c">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="fileHandler.c">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="linkedList.c">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="packetHandler.c">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="packetCapture.c">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="remoteScan.c">
+      <Filter>SourceFiles\remote</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="deviceHandler.h">
+      <Filter>HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="filehandler.h">
+      <Filter>HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="linkedList.h">
+      <Filter>HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="packetHandler.h">
+      <Filter>HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="protocols.h">
+      <Filter>HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="threading.h">
+      <Filter>HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="remoteScan.h">
+      <Filter>HeaderFiles\remote</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="HeaderFiles">
+      <UniqueIdentifier>{61cfe42d-f227-45e1-9610-4587788abb16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles">
+      <UniqueIdentifier>{83fe10d0-e079-4948-bfe6-4a55baee63cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles\remote">
+      <UniqueIdentifier>{c768c40e-1c20-4f5e-b83f-f6c14a108ca6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HeaderFiles\remote">
+      <UniqueIdentifier>{031acba5-27ba-441f-a0cf-e05db37c6ce5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
