@@ -2,7 +2,8 @@
     CONSOLE APPLICATION : SendPacket Project Overview
 ========================================================================
 
-
+This folder contains an old version of the program.
+It will be deletet in the future.
 
 This program can send a profinet dcp call in the local subnet (layer 2) and listens for the answers
 or scan a range of ip addresses from layer 3. 
