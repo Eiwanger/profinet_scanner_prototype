@@ -1,6 +1,6 @@
 The scanner itself contains a own README where a description to the functionalities and future improvements are stated. It was programed in Visual Studio Express.
 
-This program was a test for what is possible to scan in a system with profinet devices. It was created during an internship at the BMW Group.
+This program was a test for what is possible to scan in a system with profinet devices. It was created during an internship.
 
 It uses the NPCAP library to send packets over a ethernet connection to the devices and listens for their answers to parse them. I've made it as a console application that works only on windows because I used the windows libraries for multithreading. The used protocols are profinet DCP, ethernet, ip, udp and dce rpc.
 
